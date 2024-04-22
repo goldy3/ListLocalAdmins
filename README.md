@@ -20,6 +20,14 @@ This repository contains a Go program designed to manage Windows server administ
 
 Clone the repository to your local machine:
 
-```bash
+bash
 git clone https://github.com/yourusername/ListLocalAdmins.git
 cd ListLocalAdmins
+
+## Usage
+Ensure you have a text file containing the names of the servers you wish to query, separated by commas.
+Run the program using:
+bash
+Copy code
+go run main.go path_to_your_input_file.txt path_to_your_output_file.csv
+Replace path_to_your_input_file.txt with the path to your input file, and path_to_your_output_file.csv with the desired path for the output file.
